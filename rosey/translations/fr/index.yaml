@@ -1,0 +1,53 @@
+_inputs:
+  $:
+    type: object
+    comment: "[index.html](https://adjective-noun.cloudvent.net/index.html)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (fr)
+          comment: "[index.html](https://adjective-noun.cloudvent.net/index.html)"
+          inputs:
+            - Beautiful-email-campaigns
+            - Try-This-Free
+            - With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E
+        - heading: Already translated (fr)
+          comment: "[index.html](https://adjective-noun.cloudvent.net/index.html)"
+          inputs: []
+  Beautiful-email-campaigns:
+    label: Beautiful email campaigns
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://adjective-noun.cloudvent.net/index.html#:~:text=Beautifu\
+      l%20email%20campaigns)"
+    context: {}
+  Try-This-Free:
+    label: Try This Free
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://adjective-noun.cloudvent.net/index.html#:~:text=Try%20Th\
+      is%20Free)"
+    context: {}
+  With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E:
+    label: With Sendit, you can quickly create beautiful rich emails that c...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://adjective-noun.cloudvent.net/index.html#:~:text=With%20S\
+      endit%2C%20you%20can,convert%20them%20into%20customers.)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: >
+        With Sendit, you can quickly create beautiful rich emails that capture a
+        reader's attention, engage them, and convert them into customers.
+urlTranslation: index.html
+Beautiful-email-campaigns: ""
+Try-This-Free: ""
+With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E: ""

@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import navigation from "@data/navigation.json";
 import useLanguagePicker from "./useLanguagePicker";
-// import { generateRoseyId } from "rosey-cloudcannon-connector/utils";
 
 export default function Navigation({ pageUrl }) {
   const [isSticky, setSticky] = useState(false);
@@ -150,13 +149,15 @@ export default function Navigation({ pageUrl }) {
                         href={`${item.link}`}
                         className={`nav-link dropdown-link ${pageUrl?.pathname === item.link ? "active" : ""}`}
                         onClick={handleDropdownClick}
+                        data-rosey={item.text}
                       >
                         {item.text}
                       </a>
                       <ul className="dropdown-menu">
                         {item.dropdown.map((dropdown_item, j) => (
                           <li key={j}>
-                            <a className="dropdown-item" href={dropdown_item.dropdown_link}>
+                            <a className="dropdown-item" href={dropdown_item.dropdown_link}
+                            data-rosey={dropdown_item.dropdown_text}>
                               {dropdown_item.dropdown_text}
                             </a>
                           </li>
@@ -166,7 +167,8 @@ export default function Navigation({ pageUrl }) {
                   ) : (
                     <a
                       href={`${item.link}`}
-                      className={`nav-link ${pageUrl?.pathname === item.link ? "active" : ""}`}
+                        className={`nav-link ${pageUrl?.pathname === item.link ? "active" : ""}`}
+                        data-rosey={item.text}
                     >
                       {item.text}
                     </a>
@@ -209,6 +211,7 @@ export default function Navigation({ pageUrl }) {
                 <a
                   href={`${navigation.nav_btn?.link}`}
                   className="btn btn-sm btn-links"
+                  data-rosey={navigation.nav_btn?.text}
                 >
                   {navigation.nav_btn?.text}
                 </a>

@@ -11,7 +11,7 @@ commit_templates:
 collections_config:
   fr_posts:
     icon: newspaper
-    path: src/content/fr/blog
+    path: src/content/frBlog
     url: "/fr/blog/[slug]/"
     disable_add_folder: true
     _enabled_editors:

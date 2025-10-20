@@ -10,10 +10,16 @@ const languageConfig = {
     shortLabel: "EN",
   },
   fr: {
-    code: "fr",
+    code: "fr-FR",
     label: "Français",
     flag: "🇫🇷",
     shortLabel: "FR",
+  },
+  es: {
+    code: "es-ES",
+    label: "Spanish",
+    flag: "🇪🇸",
+    shortLabel: "ES",
   },
   // Add more languages here as needed:
   // "de-DE": {

@@ -16,6 +16,7 @@ export default function HomeHero(block) {
                 dangerouslySetInnerHTML={{
                   __html: md.render(block.description),
                 }}
+                data-rosey-ns="rcc-markdown"
                 data-rosey-tagger
               />
               <div className="">

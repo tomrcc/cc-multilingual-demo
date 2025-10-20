@@ -91,13 +91,23 @@ _inputs:
     options: {}
     comment: ""
     context: {}
-common:About: ""
-common:All-Articles: ""
-common:Blog: ""
-common:Contact: ""
-common:Features: ""
-common:Get-Started: ""
-common:Home: ""
-common:Marketing: ""
-common:Pricing: ""
-common:Technology: ""
+common:About: |
+  A propos de
+common:All-Articles: |
+  Tous les articles
+common:Blog: |
+  Blog
+common:Contact: |
+  Contact
+common:Features: |
+  Caractéristiques
+common:Get-Started: |
+  Commencer
+common:Home: |
+  Accueil
+common:Marketing: |
+  Marketing
+common:Pricing: |
+  Tarification
+common:Technology: |
+  Technologie

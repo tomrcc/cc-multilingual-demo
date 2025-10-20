@@ -8,20 +8,20 @@ _inputs:
         - heading: Still to translate (es-ES)
           comment: "[index.html](https://merry-eland.cloudvent.net/index.html)"
           inputs:
-            - Beautiful-email-campaigns
+            - Home-Hero-Demo-Video
             - Try-This-Free
             - rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E
         - heading: Already translated (es-ES)
           comment: "[index.html](https://merry-eland.cloudvent.net/index.html)"
           inputs: []
-  Beautiful-email-campaigns:
-    label: Beautiful email campaigns
+  Home-Hero-Demo-Video:
+    label: Home Hero Demo Video
     hidden: false
     type: text
     options: {}
     comment: "[See in
-      context](https://merry-eland.cloudvent.net/index.html#:~:text=Beautiful%2\
-      0email%20campaigns)"
+      context](https://merry-eland.cloudvent.net/index.html#:~:text=Home%20Hero\
+      %20Demo%20Video)"
     context: {}
   Try-This-Free:
     label: Try This Free
@@ -60,6 +60,11 @@ _inputs:
         With Sendit, you can quickly create beautiful rich emails that capture a
         reader's attention, engage them, and convert them into customers.
 urlTranslation: index.html
-Beautiful-email-campaigns: ""
-Try-This-Free: ""
-rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E: ""
+Home-Hero-Demo-Video: |
+  Home Hero Vídeo de demostración
+Try-This-Free: |
+  Prueba esto gratis
+rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E: >
+  Con Sendit, puedes crear rápidamente hermosos correos electrónicos
+  enriquecidos que capten la atención de los lectores, los atraigan y los
+  conviertan en clientes.

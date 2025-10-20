@@ -1,54 +1,54 @@
 {
-	"Beautiful-email-campaigns": {
-		"original": "Beautiful email campaigns",
-		"value": "Beautiful email campaigns"
+	"Home-Hero-Demo-Video": {
+		"original": "Home Hero Demo Video",
+		"value": "Home Hero Vídeo de demostración\n"
 	},
 	"Try-This-Free": {
 		"original": "Try This Free",
-		"value": "Try This Free"
+		"value": "Prueba esto gratis\n"
 	},
 	"common:About": {
 		"original": "About",
-		"value": "About"
+		"value": "Acerca de\n"
 	},
 	"common:All-Articles": {
 		"original": "All Articles",
-		"value": "All Articles"
+		"value": "Todos los artículos\n"
 	},
 	"common:Blog": {
 		"original": "Blog",
-		"value": "Blog"
+		"value": "Blog\n"
 	},
 	"common:Contact": {
 		"original": "Contact",
-		"value": "Contact"
+		"value": "Contacto\n"
 	},
 	"common:Features": {
 		"original": "Features",
-		"value": "Features"
+		"value": "Funciones\n"
 	},
 	"common:Get-Started": {
 		"original": "Get Started",
-		"value": "Get Started"
+		"value": "Comenzar\n"
 	},
 	"common:Home": {
 		"original": "Home",
-		"value": "Home"
+		"value": "Hogar\n"
 	},
 	"common:Marketing": {
 		"original": "Marketing",
-		"value": "Marketing"
+		"value": "Marketing\n"
 	},
 	"common:Pricing": {
 		"original": "Pricing",
-		"value": "Pricing"
+		"value": "Precios\n"
 	},
 	"common:Technology": {
 		"original": "Technology",
-		"value": "Technology"
+		"value": "Tecnología\n"
 	},
 	"rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E": {
 		"original": "With Sendit, you can quickly create beautiful rich emails that capture a reader's attention, engage them, and convert them into customers.",
-		"value": "With Sendit, you can quickly create beautiful rich emails that capture a reader's attention, engage them, and convert them into customers."
+		"value": "Con Sendit, puedes crear rápidamente hermosos correos electrónicos enriquecidos que capten la atención de los lectores, los atraigan y los conviertan en clientes.\n"
 	}
 }

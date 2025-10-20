@@ -1,4 +1,5 @@
-locales: []
+locales:
+  - fr
 input_lengths:
   label: 64
   textarea: 40

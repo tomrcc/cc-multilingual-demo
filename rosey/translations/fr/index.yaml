@@ -10,7 +10,7 @@ _inputs:
           inputs:
             - Beautiful-email-campaigns
             - Try-This-Free
-            - With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E
+            - rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E
         - heading: Already translated (fr)
           comment: "[index.html](https://merry-eland.cloudvent.net/index.html)"
           inputs: []
@@ -32,11 +32,23 @@ _inputs:
       context](https://merry-eland.cloudvent.net/index.html#:~:text=Try%20This%\
       20Free)"
     context: {}
-  With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E:
+  rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E:
     label: With Sendit, you can quickly create beautiful rich emails that c...
     hidden: false
-    type: textarea
-    options: {}
+    type: markdown
+    options:
+      bold: true
+      italic: true
+      strike: true
+      link: true
+      subscript: true
+      superscript: true
+      underline: true
+      code: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
     comment: "[See in
       context](https://merry-eland.cloudvent.net/index.html#:~:text=With%20Send\
       it%2C%20you%20can,convert%20them%20into%20customers.)"
@@ -50,4 +62,4 @@ _inputs:
 urlTranslation: index.html
 Beautiful-email-campaigns: ""
 Try-This-Free: ""
-With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E: ""
+rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E: ""
